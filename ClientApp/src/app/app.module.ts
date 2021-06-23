@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { DiceComponent } from './dice/dice.component';
+import { RpsComponent } from './rps/rps.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DiceComponent } from './dice/dice.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    DiceComponent
+    DiceComponent,
+    RpsComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -29,6 +31,7 @@ import { DiceComponent } from './dice/dice.component';
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'dice', component: DiceComponent },
+      { path: 'rps', component: RpsComponent },
     ])
   ],
   providers: [],
