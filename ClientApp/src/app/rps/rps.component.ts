@@ -41,7 +41,7 @@ export class RpsComponent{
     }
     else if(this.computerChoice == "Paper"){
       this.winChoice = "LOSE";
-      this.displayChoice = "Paper"
+      this.displayChoice = "Paper";
     }
     else{
       this.winChoice = "TIE";
@@ -53,15 +53,15 @@ export class RpsComponent{
     this.userChoice = "Paper";
     if(this.computerChoice == "Rock"){
       this.winChoice = "WON";
-      this.displayChoice = "Rock"
+      this.displayChoice = "Rock";
     }
     else if(this.computerChoice == "Scissors"){
       this.winChoice = "LOSE";
-      this.displayChoice = "Scissors"
+      this.displayChoice = "Scissors";
     }
     else{
       this.winChoice = "TIE";
-      this.displayChoice = "Paper"
+      this.displayChoice = "Paper";
     } 
     this.getComputerChoice();
   } 
@@ -69,15 +69,15 @@ export class RpsComponent{
     this.userChoice = "Scissors";
     if(this.computerChoice == "Paper"){
       this.winChoice = "WON";
-      this.displayChoice = "Paper"
+      this.displayChoice = "Paper";
     }
     else if(this.computerChoice == "Rock"){
       this.winChoice = "LOSE";
-      this.displayChoice = "Rock"
+      this.displayChoice = "Rock";
     }
     else{
       this.winChoice = "TIE";
-      this.displayChoice = "Scissors"
+      this.displayChoice = "Scissors";
     } 
     this.getComputerChoice();
   } 
